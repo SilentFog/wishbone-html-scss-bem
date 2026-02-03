@@ -1,0 +1,36 @@
+.header {
+    background-color: white;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 140px;
+        align-items: center;
+
+    }
+
+    &__menu,
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+
+    &__left {
+        font-weight: 500;
+
+    }
+
+    &__part {
+        display: inline-block;
+        font-weight: bold;
+        color: black;
+    }
+
+}

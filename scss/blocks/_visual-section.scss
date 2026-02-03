@@ -1,0 +1,53 @@
+.visual-section {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 75px;
+
+    &--house {
+        background-image: url("../images/IMAGE(2).jpg");
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    &--stairce {
+        background-image: url("../images/IMAGE(3).jpg");
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    &--stairce-sw {
+        background-image: url("../images/IMAGE(4).jpg");
+        display: flex;
+        width: 100%;
+
+    }
+
+    &__text {
+        max-width: 280px;
+        color: #645C55;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #403E3B;
+    }
+
+    &__label {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #645C55;
+    }
+}

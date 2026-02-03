@@ -1,0 +1,50 @@
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+        margin-bottom: 128px;
+    }
+
+    &__description {
+        max-width: 500px;
+        max-height: 560px;
+    }
+
+    &__text {
+        margin-bottom: 10px;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+
+        color: black;
+
+        &--last {
+            margin-bottom: 18px;
+        }
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 0%;
+        color: #403E3B;
+    }
+
+
+}
+
+.author {
+    display: flex;
+    gap: 30px;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+}

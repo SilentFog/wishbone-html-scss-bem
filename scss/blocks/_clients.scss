@@ -1,0 +1,19 @@
+.clients {
+
+    &__wrapper {
+        background-color: #403E3B;
+        min-height: 410px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    &__text-wrapper {
+        max-width: 460px;
+        color: white;
+    }
+}
