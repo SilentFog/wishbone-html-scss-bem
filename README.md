@@ -1,9 +1,10 @@
 
+<div align="center">
 
 # 🏛️ Wishbone+Partners — Architecture & Interior Design Portfolio
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![Sass/SCSS](https://img.shields.io/badge/Sass-SCSS-CC6699?style=flat\&logo=sass\&logoColor=white)](https://sass-lang.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Sass/SCSS](https://img.shields.io/badge/Sass-SCSS-CC6699?style=flat&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![BEM](https://img.shields.io/badge/Architecture-BEM-6366F1?style=flat)](https://en.bem.info/)
 [![Responsive](https://img.shields.io/badge/Design-Responsive-0EA5E9?style=flat)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
@@ -21,7 +22,11 @@
 
 </p>
 
-🔗 **[Live Demo](https://wishbone-html-scss-bem.vercel.app/)** | 📦 **[GitHub Repository](YOUR_GITHUB_REPOSITORY_URL)**
+<div align="center">
+
+🔗 **[Live Demo](https://wishbone-html-scss-bem.vercel.app/)** &nbsp;&nbsp;|&nbsp;&nbsp; 📦 **[GitHub Repository](https://github.com/SilentFog/wishbone-html-scss-bem)**
+
+</div>
 
 ---
 
