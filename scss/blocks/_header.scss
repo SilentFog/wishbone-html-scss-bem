@@ -1,0 +1,54 @@
+.header {
+    background-color: white;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 140px;
+    }
+
+    &__menu,
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    @media (max-width: 1200px) {
+        &__inner {
+            padding: 22px 40px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__inner {
+            padding: 15px 20px;
+        }
+
+        &__menu,
+        &__nav {
+            gap: 16px;
+        }
+    }
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+
+    &__left {
+        font-weight: 500;
+    }
+
+    &__part {
+        display: inline-block;
+        font-weight: bold;
+        color: black;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
