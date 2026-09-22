@@ -8,17 +8,15 @@
 
     &__description {
         max-width: 500px;
-        max-height: 560px;
+        max-height: 560px; 
     }
 
     &__text {
         margin-bottom: 10px;
-
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0%;
-
         color: black;
 
         &--last {
@@ -34,7 +32,36 @@
         color: #403E3B;
     }
 
+    
+    @media (max-width: 992px) {
+        &__wrapper {
+            flex-direction: column;
+            gap: 40px;
+            margin-bottom: 80px;
+        }
 
+        &__description {
+            max-width: 100%;
+            max-height: none;
+        }
+    }
+
+    @media (max-width: 576px) {
+        &__wrapper {
+            margin-bottom: 50px;
+        }
+
+        &__title {
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 15px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
 }
 
 .author {
@@ -46,5 +73,16 @@
         flex-direction: column;
         justify-content: center;
         gap: 0px;
+    }
+
+  
+    @media (max-width: 576px) {
+        gap: 20px;
+
+        &__img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
     }
 }

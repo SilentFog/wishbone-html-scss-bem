@@ -1,5 +1,4 @@
 .clients {
-
     &__wrapper {
         background-color: #403E3B;
         min-height: 410px;
@@ -10,10 +9,30 @@
         gap: 60px;
         flex-wrap: wrap;
         align-content: center;
+        padding: 30px;
     }
 
     &__text-wrapper {
         max-width: 460px;
         color: white;
+    }
+
+    @media (max-width: 992px) {
+        &__wrapper {
+            min-height: auto;
+            gap: 30px;        
+            padding: 60px 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        &__wrapper {
+            padding: 40px 16px;
+            gap: 24px;
+        }
+
+        &__text-wrapper {
+            max-width: 100%; 
+        }
     }
 }

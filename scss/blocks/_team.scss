@@ -1,70 +1,107 @@
-.team__wrapp {
-    padding: 100px 136px;
-    display: flex;
-    gap: 40px;
-}
+.team {
+    &__wrapp {
+        padding: 100px 136px;
+        display: flex;
+        gap: 40px;
+    }
 
-.team__text {
-    max-width: 378px;
+    &__text {
+        max-width: 378px;
+    }
 
-}
+    &__title {
+        margin-bottom: 14px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 0%;
+        color: #403E3B;
+    }
 
-.team__title {
+    &__more {
+        display: inline-block;
+        padding: 12px 25px;
+    }
 
-    margin-bottom: 14px;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-    letter-spacing: 0%;
-    color: #403E3B;
+    &__more-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: black;
+        text-decoration: none;
+    }
 
-}
+    &__paragraph {
+        max-width: 358px;
+        font-size: 15px;
+        line-height: 1.6;
+        font-weight: 400;
+        text-align: start;
+        color: #645C55;
+        margin-bottom: 30px;
+    }
 
+    &__people {
+        max-width: 773px;
+        width: 100%;
+    }
 
-.team__more {
-    display: inline-block;
-    padding: 12px 25px;
-}
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        column-gap: 143px;
+    }
 
-.team__more-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    color: black;
-    text-decoration: none;
-}
+    &__item {
+        &:nth-child(-n+3),
+        &:nth-child(n+4) {
+            grid-column: span 1;
+        }
+    }
 
-.team__paragraph {
-    max-width: 358px;
-    font-size: 15px;
-    line-height: 1.6;
-    font-weight: 400;
-    text-align: start;
-    color: #645C55;
-    margin-bottom: 30px;
-}
+    @media (max-width: 1200px) {
+        &__wrapp {
+            padding: 80px 40px;
+            gap: 30px;
+        }
 
-.team__people {
-    max-width: 773px;
-}
+        &__list {
+            column-gap: 60px;
+        }
+    }
 
-.team__list {
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
+    @media (max-width: 992px) {
+        &__wrapp {
+            flex-direction: column;
+            padding: 60px 20px;
+        }
 
+        &__text,
+        &__paragraph,
+        &__people {
+            max-width: 100%;
+        }
 
-.team__list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    column-gap: 143px;
-}
+        &__list {
+            column-gap: 32px;
+        }
+    }
 
-.team__item:nth-child(-n+3),
-.team__item:nth-child(n+4) {
-    grid-column: span 1;
+    @media (max-width: 576px) {
+        &__wrapp {
+            padding: 40px 16px;
+        }
+
+        &__title {
+            font-size: 26px;
+            line-height: 32px;
+        }
+
+        &__list {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+    }
 }
